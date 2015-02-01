@@ -1,4 +1,4 @@
-/* main.cpp */
+/* This code is public domain, See LICENSE for Unlicense boilerplate */
 
 #define UNICODE
 #include <Windows.h>
