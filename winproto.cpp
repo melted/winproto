@@ -1,6 +1,8 @@
 /* main.cpp */
 
+#define UNICODE
 #include <Windows.h>
+
 
 void DoPaint(HWND w) {
 	PAINTSTRUCT ps;
