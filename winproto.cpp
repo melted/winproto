@@ -8,6 +8,7 @@ void DoPaint(HWND w) {
 	PAINTSTRUCT ps;
 	HDC dc;
 	dc = BeginPaint(w, &ps);
+        FillRect(dc, &ps.rcPaint, (HBRUSH)(COLOR_WINDOW+1));
 	RECT textrect = { 100, 100, 300, 150 };
 	DrawText(dc, L"This is the thing", -1, &textrect, 0);
 	EndPaint(w, &ps);
